@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/mocha -R spec --timeout 30000 test/*test.js"
   },
   "dependencies": {
-    "soap": "^0.8.0",
+    "soap": "git+https://github.com/shelbys/node-soap.git",
     "debug": "^2.1.1"
   },
   "devDependencies": {
