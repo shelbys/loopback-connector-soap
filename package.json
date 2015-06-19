@@ -1,13 +1,13 @@
 {
   "name": "loopback-connector-soap",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "LoopBack SOAP Web Services Connector",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec --timeout 30000 test/*test.js"
   },
   "dependencies": {
-    "soap": "git+https://github.com/shelbys/node-soap.git#b64a945a39eb9ccd0c390b6be0cc9aca30b00cd6",
+    "soap": "git+https://github.com/shelbys/node-soap.git",
     "debug": "^2.1.1"
   },
   "devDependencies": {
