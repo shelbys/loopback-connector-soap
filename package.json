@@ -1,14 +1,16 @@
 {
   "name": "loopback-connector-soap",
-  "version": "1.2.4",
+  "version": "2.0.0",
   "description": "LoopBack SOAP Web Services Connector",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha -R spec --timeout 30000 test/*test.js"
   },
   "dependencies": {
+    "debug": "^2.1.1",
+    "request": "^2.55.0",
     "soap": "git+https://github.com/shelbys/node-soap.git",
-    "debug": "^2.1.1"
+    "strongloop-license": "^1.0.2"
   },
   "devDependencies": {
     "loopback-datasource-juggler": "2.x.x",
@@ -26,6 +28,6 @@
     "url": "https://github.com/strongloop/loopback-connector-soap/blob/master/LICENSE"
   },
   "optionalDependencies": {
-    "sl-blip": "http://blip.strongloop.com/loopback-connector-soap@1.2.0"
+    "sl-blip": "http://blip.strongloop.com/loopback-connector-soap@2.0.0"
   }
 }
