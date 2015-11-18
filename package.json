@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-soap",
-  "version": "2.0.1",
+  "version": "2.3.0",
   "description": "LoopBack SOAP Web Services Connector",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "dependencies": {
     "debug": "^2.1.1",
     "request": "^2.55.0",
-    "soap": "git+https://github.com/shelbys/node-soap.git",
+    "soap": "git+https://github.com/shelbys/node-soap.git#Registry-findModel-modelName",
     "strongloop-license": "^1.0.2"
   },
   "devDependencies": {
@@ -23,11 +23,8 @@
     "type": "git",
     "url": "https://github.com/strongloop/loopback-connector-soap.git"
   },
-  "license": {
-    "name": "StrongLoop",
-    "url": "https://github.com/strongloop/loopback-connector-soap/blob/master/LICENSE"
-  },
+  "license": "SEE LICENSE IN LICENSE.md",
   "optionalDependencies": {
-    "sl-blip": "http://blip.strongloop.com/loopback-connector-soap@2.0.0"
+    "sl-blip": "http://blip.strongloop.com/loopback-connector-soap@2.3.0"
   }
 }

@@ -1,3 +1,34 @@
+2015-10-23, Version 2.3.0
+=========================
+
+ * Update soap dep (Raymond Feng)
+
+
+2015-10-09, Version 2.2.0
+=========================
+
+ * Add support for request options (Raymond Feng)
+
+
+2015-09-29, Version 2.1.1
+=========================
+
+ * Upgrade to soap@0.9.4 (Raymond Feng)
+
+
+2015-09-29, Version 2.1.0
+=========================
+
+ * Use strongloop conventions for licensing (Sam Roberts)
+
+ * Add connector hook to the example (Raymond Feng)
+
+
+2015-06-01, Version 2.0.0
+=========================
+
+
+
 2015-06-01, Version 1.3.0
 =========================
 
